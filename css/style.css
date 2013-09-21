@@ -1,0 +1,67 @@
+#showmessage {
+	height: 400px;
+	width: 500px;
+	border: 1px solid #0000FF;
+	float: left;
+	overflow-y:auto;
+	word-break: break-all;
+}
+#showuser {
+	height: 400px;
+	width: 200px;
+	float: right;
+	border: 1px solid #FF0000;
+}
+#guanggao {
+	height: 500px;
+	width: 100px;
+	position:fixed;
+	top:100px;
+	border: medium outset #CCCCCC;
+}
+
+#sendmessage {
+	max-height:100px;
+	max-width:500px;
+	height: 100px;
+	width: 500px;
+	border: 1px solid #00FF00;
+	clear: left;
+}
+.gaopian {
+	height: 470px;
+	width: 100px;
+}
+
+.style{
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 25px;
+	top: -30px;	
+}
+#win {
+	height: 506px;
+	width: 720px;
+	border: thin dashed #FF00FF;
+	padding: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	display: none;
+}
+body {
+	margin: 0px;
+	height: 1200px;
+}
+#login {
+	border: 1px dashed #000000;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "ËÎÌו";
+	font-size: large;
+	font-weight: bold;
+	color: #0000FF;
+	width: 270px;
+}

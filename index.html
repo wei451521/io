@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>测试聊天</title>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/index.js"></script>
+<link rel="stylesheet" href="css/style.css" type="text/css" /> 
+</head>
+<body>
+<div id="login">
+姓名：<input type="text" id="name"/>
+<input type="button" value="进入" onclick="onlogin();"/>
+</div>
+<div id="win">
+<div id="showmessage"></div>
+<div id="showuser"></div>
+<textarea id="sendmessage"></textarea>
+<input name="button" type="button" class="style" value="发送" onClick="onsend();"/>
+</div>
+
+</body>
+</html>
